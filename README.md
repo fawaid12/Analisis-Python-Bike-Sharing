@@ -31,6 +31,7 @@ streamlit run dashboard.py
 |-- analisis.ipynb      # File ipynb dijupiter untuk langkah-langkah analisis
 |-- requirements.txt    # Daftar dependensi
 |-- README.md           # Dokumentasi proyek
+|-- url.txt             # link streamlit
 ```
 
 ## Dataset
