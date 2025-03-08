@@ -28,6 +28,7 @@ streamlit run dashboard.py
 |-- day.csv             # Dataset harian
 |-- hour.csv            # Dataset per jam
 |-- Dashboard.py        # File utama untuk menjalankan dashboard
+|-- analisis.ipynb      # File ipynb dijupiter untuk langkah-langkah analisis
 |-- requirements.txt    # Daftar dependensi
 |-- README.md           # Dokumentasi proyek
 ```
