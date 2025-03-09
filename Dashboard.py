@@ -76,3 +76,8 @@ st.dataframe(filter_hour)
 # Menampilkan total penyewaan sepeda berdasarkan filter yang dipilih
 total_penyewaan = filter_hour["cnt"].sum()
 st.subheader(f"Total Penyewaan Sepeda: {total_penyewaan}")
+
+# Menampilkan total penyewaan sepeda berdasarkan kondisi cuaca
+st.subheader("Total Penyewaan Sepeda Berdasarkan Cuaca")
+df_total_per_cuaca = filter_hour.groupby("weathersit")["cnt"].sum().reset_index()
+st.dataframe(df_total_per_cuaca)
