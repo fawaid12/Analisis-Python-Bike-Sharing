@@ -25,13 +25,13 @@ streamlit run dashboard.py
 
 ## Struktur File
 ```
-|-- day.csv             # Dataset harian
-|-- hour.csv            # Dataset per jam
-|-- Dashboard.py        # File utama untuk menjalankan dashboard
-|-- analisis.ipynb      # File ipynb dijupiter untuk langkah-langkah analisis
-|-- requirements.txt    # Daftar dependensi
-|-- README.md           # Dokumentasi proyek
-|-- url.txt             # link streamlit
+|-- day.csv                         # Dataset harian
+|-- hour.csv                        # Dataset per jam
+|-- Dashboard.py                    # File utama untuk menjalankan dashboard
+|-- Proyek_Analisis_data.ipynb      # File ipynb dijupiter untuk langkah-langkah analisis
+|-- requirements.txt                # Daftar dependensi
+|-- README.md                       # Dokumentasi proyek
+|-- url.txt                         # link streamlit
 ```
 
 ## Dataset
